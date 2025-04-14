@@ -1,0 +1,49 @@
+/* CSS sederhana biar footer nempel di bawah */
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.hero {
+ 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 120px 20px;
+  flex: 1;
+}
+.hero h1 {
+    font-size: 2rem;
+  }
+
+.hero h2{
+    font-size : 2rem;
+}
+  
+
+.footer {
+  background-color: #0d6efd;
+  padding: 10px 0; /* sebelumnya 20px 0 */
+  font-size: 14px;  /* biar teks nggak terlalu besar */
+  color: white;
+}
+.tombol-kiri-atas {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 3;
+  }
+  
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5); /* efek gelap transparan */
+    z-index: 1;
+  }
+  
+  .container {
+    z-index: 2;
+  }
+  
